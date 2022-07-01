@@ -20,6 +20,8 @@
 		B1319381286EBB6500EE08FF /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1319380286EBB6500EE08FF /* RecipeModel.swift */; };
 		B1319383286EBEC900EE08FF /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1319382286EBEC900EE08FF /* RecipeCard.swift */; };
 		B1319385286F207B00EE08FF /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1319384286F207B00EE08FF /* RecipeList.swift */; };
+		B1319387286F60F100EE08FF /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1319386286F60F100EE08FF /* RecipeView.swift */; };
+		B1319389286F6B2E00EE08FF /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1319388286F6B2E00EE08FF /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		B1319380286EBB6500EE08FF /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		B1319382286EBEC900EE08FF /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		B1319384286F207B00EE08FF /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		B1319386286F60F100EE08FF /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		B1319388286F6B2E00EE08FF /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 		B1319366286EA95A00EE08FF /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				B1319386286F60F100EE08FF /* RecipeView.swift */,
+				B1319388286F6B2E00EE08FF /* CategoryView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -217,7 +223,9 @@
 				B1319377286EAB1000EE08FF /* CategoriesView.swift in Sources */,
 				B1319379286EAB1F00EE08FF /* NewRecipeView.swift in Sources */,
 				B131937F286EB61400EE08FF /* TabBar.swift in Sources */,
+				B1319389286F6B2E00EE08FF /* CategoryView.swift in Sources */,
 				B131937B286EAB2700EE08FF /* FavoritesView.swift in Sources */,
+				B1319387286F60F100EE08FF /* RecipeView.swift in Sources */,
 				B1319385286F207B00EE08FF /* RecipeList.swift in Sources */,
 				B1319375286EAB0000EE08FF /* HomeView.swift in Sources */,
 				B1319357286E9FE000EE08FF /* ContentView.swift in Sources */,

@@ -13,6 +13,7 @@ struct HomeView: View {
             ScrollView {
                 RecipeList(recipes: Recipe.all)
             }
+            .navigationTitle("My Recipes")
         }
         .navigationViewStyle(.stack)
     }
